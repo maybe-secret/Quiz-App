@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <div class="popup" id="popup">
+    <img src="tick.png">
+    <h2>Your Score</h2>
+    <p class="scoreRes"></p>
+    <button class="resetbtn" onclick="startQuiz()">Restart</button>
+  </div>
+  <div class="container">
+    <h1 class="heading">CS Quiz</h1>
+    <div class="quiz">
+      <h2 class="ques">1. Who is the Prime Minister of India?</h2>
+      <div class="ansbtn">
+        <button class="btn">Manmohan Singh</button>
+      <button class="btn correct">Narendra Modi</button>
+      <button class="btn wrong">Mamata Banerjee</button>
+      <button class="btn">Amit Saha</button>
+      </div>
+    </div>
+    <div class="btnx">
+      <button class="next">Next</button>
+    </div>
+    <h6 class="qcount">1 of 100</h6>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>

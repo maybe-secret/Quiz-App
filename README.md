@@ -1,2 +1,3 @@
 # Quiz-App
-Simple Quiz app.
+Simple Quiz app with engaging fireworks.
+
